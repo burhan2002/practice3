@@ -5,3 +5,7 @@ void reverseString() {
   String input = stdin.readLineSync()!;
   print("Reversed: ${input.split('').reversed.join()}");
 }
+
+void main() {
+  reverseString();
+}
