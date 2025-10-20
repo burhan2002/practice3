@@ -11,3 +11,7 @@ void calculateArea() {
 
   print("Area: ${length * width}");
 }
+
+void main() {
+  calculateArea();
+}
