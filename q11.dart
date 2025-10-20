@@ -7,3 +7,7 @@ void createUser() {
   int age = int.parse(stdin.readLineSync()!);
   print("Name: $name, Age: $age, Active: true");
 }
+
+void main() {
+  createUser();
+}
