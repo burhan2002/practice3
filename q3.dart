@@ -5,3 +5,7 @@ void greetUser() {
   String name = stdin.readLineSync()!;
   print("Hello, $name");
 }
+
+void main() {
+  greetUser();
+}
