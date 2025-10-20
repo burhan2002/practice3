@@ -9,3 +9,7 @@ void calculatePower() {
   int result = base == 0 ? 0 : List.filled(exponent, base).reduce((a, b) => a * b);
   print("Result: $result");
 }
+
+void main() {
+  calculatePower();
+}
