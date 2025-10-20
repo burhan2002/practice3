@@ -11,3 +11,7 @@ void findMax() {
   int max = [a, b, c].reduce((curr, next) => curr > next ? curr : next);
   print("Maximum: $max");
 }
+
+void main() {
+  findMax();
+}
