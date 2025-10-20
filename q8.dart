@@ -7,3 +7,7 @@ void addNumbers() {
   int b = int.parse(stdin.readLineSync()!);
   print("Sum: ${a + b}");
 }
+
+void main() {
+  addNumbers();
+}
