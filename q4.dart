@@ -10,3 +10,7 @@ void generatePassword() {
   String password = List.generate(length, (index) => chars[rand.nextInt(chars.length)]).join();
   print("Generated password: $password");
 }
+
+void main() {
+  generatePassword();
+}
